@@ -298,7 +298,7 @@ void* north(void *arg){
 				hNew = calculateHValue(i - 1, j, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -349,7 +349,7 @@ void* South(void *arg){
 				hNew = calculateHValue(i + 1, j, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -397,7 +397,7 @@ void* east(void *arg){
 				hNew = calculateHValue(i, j + 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -446,7 +446,7 @@ void* west(void *arg){
 				hNew = calculateHValue(i, j - 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -499,7 +499,7 @@ void* northEast(void *arg){
 				hNew = calculateHValue(i - 1, j + 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -552,7 +552,7 @@ void* northWest(void *arg){
 				hNew = calculateHValue(i - 1, j - 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -604,7 +604,7 @@ void* southEast(void *arg){
 				hNew = calculateHValue(i + 1, j + 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
@@ -657,7 +657,7 @@ void* southWest(void *arg){
 				hNew = calculateHValue(i + 1, j - 1, dest);
 				fNew = gNew + hNew;
 
-				// If it isn’t on the open list, add it to
+				// If it isnâ€™t on the open list, add it to
 				// the open list. Make the current square
 				// the parent of this square. Record the
 				// f, g, and h costs of the square cell
